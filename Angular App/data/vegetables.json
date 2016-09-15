@@ -1,0 +1,202 @@
+[
+ {
+   "Vegetable":"Lettuce",
+   "First":"China",
+   "Second":"United States",
+   "Third":"India",
+   "Fourth":"Spain",
+   "Fifth":"Italy"
+ },
+ {
+   "Vegetable":"Dry Bean",
+   "First":"Myanmar",
+   "Second":"India",
+   "Third":"Brazil",
+   "Fourth":"China",
+   "Fifth":"Mexico"
+ },
+ {
+   "Vegetable":"Onion (dry)",
+   "First":"China",
+   "Second":"India",
+   "Third":"United States",
+   "Fourth":"Egypt",
+   "Fifth":"Iran"
+ },
+ {
+   "Vegetable":"Cabbage and other brassicas",
+   "First":"China",
+   "Second":"India",
+   "Third":"Russia",
+   "Fourth":"Japan",
+   "Fifth":"South Korea"
+ },
+ {
+   "Vegetable":"Green bean",
+   "First":"China",
+   "Second":"Indonesia",
+   "Third":"India",
+   "Fourth":"Turkey",
+   "Fifth":"Thailand"
+ },
+ {
+   "Vegetable":"Chickpea",
+   "First":"India",
+   "Second":"Australia",
+   "Third":"Pakistan",
+   "Fourth":"Turkey",
+   "Fifth":"Myanmar"
+ },
+ {
+   "Vegetable":"Pulses (total)",
+   "First":"India",
+   "Second":"Pakistan",
+   "Third":"Canada",
+   "Fourth":"Myanmar",
+   "Fifth":"Australia"
+ },
+ {
+   "Vegetable":"Cauliflowers and Broccoli",
+   "First":"China",
+   "Second":"India",
+   "Third":"Italy",
+   "Fourth":"Mexico",
+   "Fifth":"France"
+ },
+ {
+   "Vegetable":"Eggplant",
+   "First":"China",
+   "Second":"India",
+   "Third":"Iran",
+   "Fourth":"Egypt",
+   "Fifth":"Turkey"
+ },
+ {
+   "Vegetable":"Potato",
+   "First":"China",
+   "Second":"India",
+   "Third":"Russia",
+   "Fourth":"Ukraine",
+   "Fifth":"United States"
+ },
+ {
+   "Vegetable":"Spinach",
+   "First":"China",
+   "Second":"United States",
+   "Third":"Japan",
+   "Fourth":"Turkey",
+   "Fifth":"Indonesia"
+ },
+ {
+   "Vegetable":"Cassava",
+   "First":"Nigeria",
+   "Second":"Thailand",
+   "Third":"Vietnam",
+   "Fourth":"Indonesia",
+   "Fifth":"Costa Rica"
+ },
+ {
+   "Vegetable":"Soybean",
+   "First":"United States",
+   "Second":"Brazil",
+   "Third":"Argentina",
+   "Fourth":"China",
+   "Fifth":"India"
+ },
+ {
+   "Vegetable":"Carrot",
+   "First":"China",
+   "Second":"Russia",
+   "Third":"United States",
+   "Fourth":"Uzbekistan",
+   "Fifth":"Ukraine"
+ },
+ {
+   "Vegetable":"Turnip",
+   "First":"China",
+   "Second":"Uzbekistan",
+   "Third":"Russia",
+   "Fourth":"United States",
+   "Fifth":"Ukraine"
+ },
+ {
+   "Vegetable":"Cucumber",
+   "First":"China",
+   "Second":"Turkey",
+   "Third":"Iran",
+   "Fourth":"Russia",
+   "Fifth":"United States"
+ },
+ {
+   "Vegetable":"Tomato",
+   "First":"China",
+   "Second":"India",
+   "Third":"United States",
+   "Fourth":"Turkey",
+   "Fifth":"Egypt"
+ },
+ {
+   "Vegetable":"Ginger",
+   "First":"India",
+   "Second":"China",
+   "Third":"Nepal",
+   "Fourth":"Nigeria",
+   "Fifth":"Thailand"
+ },
+ {
+   "Vegetable":"Pumpkin, squash and gourd",
+   "First":"China",
+   "Second":"India",
+   "Third":"Russia",
+   "Fourth":"Iran",
+   "Fifth":"United States"
+ },
+ {
+   "Vegetable":"Rapeseed",
+   "First":"Canada",
+   "Second":"China",
+   "Third":"India",
+   "Fourth":"France",
+   "Fifth":"Germany"
+ },
+ {
+   "Vegetable":"Safflower",
+   "First":"India",
+   "Second":"United States",
+   "Third":"Mexico",
+   "Fourth":"Ethiopia",
+   "Fifth":"Kazakhstan"
+ },
+ {
+   "Vegetable":"Yam",
+   "First":"Nigeria",
+   "Second":"Ghana",
+   "Third":"Ivory Coast",
+   "Fourth":"Benin",
+   "Fifth":"Togo"
+ },
+ {
+   "Vegetable":"Sweet potato",
+   "First":"China",
+   "Second":"Uganda",
+   "Third":"Nigeria",
+   "Fourth":"Indonesia",
+   "Fifth":"Tanzania"
+ },
+ {
+   "Vegetable":"Sesame",
+   "First":"Myanmar",
+   "Second":"India",
+   "Third":"China",
+   "Fourth":"Sudan",
+   "Fifth":"Tanzania"
+ },
+ {
+   "Vegetable":"Okra",
+   "First":"India",
+   "Second":"Nigeria",
+   "Third":"Iraq",
+   "Fourth":"Ivory Coast",
+   "Fifth":"Pakistan"
+ }
+]

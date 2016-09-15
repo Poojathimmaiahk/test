@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>First angular APP</title>
+    <script src="script/angular.min.js"></script>
+    <script src="modules/mod.js"></script>
+    <script src="services/services.js"></script>
+    <script src="controller/controller.js"></script>
+    <link rel="stylesheet" href="styles/style2.css">
+    </head>
+<body ng-app="FirstModule" ng-init="greeting='hi!! angular'">
+    <!--ng app is directive which binds html page to angular module or framework-->
+    value of 2+3 is {{2+3}} <br>
+    value of model variable greeting is {{greeting}}
+    
+    <div ng-controller="FirstController">
+    value of model variable greeting is {{greeting}} <br>
+        value of new variable is {{newvariable}}<br>
+          value of model variable global inside the scope  is {{$root.global}}<br>
+        value of global is {{global}}
+        </div>
+    value of model variable greeting is {{greeting}}<br>
+    value of model variable global is {{global}}<br>
+    
+    <div id="demo2" ng-controller="formcontroller">
+    <form>
+        name : <input type="text" ng-model="name"><br/>
+        value of name is : {{name}}<br>
+        value of copied variable test is : {{test}} <br/>
+    </form>
+    </div>
+    <div id="form" ng-controller="validator" ng-include="'form.html'"></div>
+    
+    <div id="report" ng-controller="report" ng-include="'report.html'"></div>
+    <div id="repeat" ng-controller="repeat" ng-include="'list.html'"></div>
+    
+    
+    </body>
+</html>

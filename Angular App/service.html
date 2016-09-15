@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>angular service demo</title>
+    <script src="script/angular.min.js"></script>
+    <script src="modules/mod.js"></script>
+    <script src="services/services.js"></script> 
+    <script src="controller/demo.js"></script>
+    <link rel="stylesheet" href="styles/style2.css">
+    </head>
+<body ng-app="FirstModule">
+    
+        <div id="external" ng-controller="alpha">
+    <input type="text" ng-model="one"><br/>
+    <input type="text"ng-model="two"><br/>
+    <input type="text" ng-model="three"><br/>
+        {{one}}<br/>
+        {{two}}<br>
+        {{three}}<br>
+        
+    <div id="internal" ng-controller="beta">
+        <input type="text"ng-model="one"><br/>
+        <input type="text"ng-model="two"><br/>
+        <input type="text"ng-model="three"><br/>
+         {{one}}<br/>
+        {{two}}<br/>
+        {{three}}<br/>
+        {{parent.one}}<br/>
+        {{parent.two}}<br/>
+        
+    </div>
+    </div>
+    <div id="x" ng-controller="one" >
+   setname <input type="text" ng-model="name" >
+    <br>
+    updatename  <input type="button" value="upadate name" ng-model="update" ng-click="setName()">
+    <br>{{after}}
+    </div>
+    <div id="y" ng-controller="two">
+    value of name is : {{name}}
+    </div>
+    </body></html>

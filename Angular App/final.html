@@ -1,0 +1,47 @@
+<html>
+<head>
+<h1> this is to test <h1>
+    <style>
+        .cover{
+            height: 500px;
+            width:400px;
+        }
+        .head{
+           height: 30px;
+            width:400px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: darkcyan;
+            color: white;
+            
+        }
+        .list{
+            height: 350px;
+            width:400px;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            background-color:darkseagreen;
+            color: white; 
+            
+        }
+        
+    </style>
+    <script src="script/angular.min.js"></script>
+    <script src="modules/mod.js"></script>
+    <script src="controller/directives.js"></script>
+    <script src="directives/directives.js"></script>
+    </head>
+
+    
+<body ng-app="FirstModule">
+    <div ng-controller="finalController">
+    <custom-list listname="places" title="x" current="places"></custom-list>
+    <custom-list listname="games" title="y" current="games"></custom-list>
+    <custom-list listname="technologies" title="z" current=technologies></custom-list>
+        <custom-list></custom-list>
+        </div>
+</body>
+
+</html>

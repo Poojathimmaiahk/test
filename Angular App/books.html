@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles/style2.css">
+    <script src="script/angular.min.js"></script>
+    <script src="modules/mod.js"></script>
+    <script src="controller/controller.js"></script>
+    <script src="filters/filter.js"></script>
+    </head>
+    <body ng-app="FirstModule" ng-init="pages=50">
+    Orderby 
+    <select ng-model="selected">
+    <option>year</option>
+    <option>pages</option>
+    <option>country</option>
+    </select>
+    search <input type="text" ng-model="search"><br>
+    pages <input type="text" ng-model="pages">
+    
+    
+    <div id="book" ng-controller="bookController">
+        <table>
+        <tr>
+            <td>Author</td>
+            <td>Country</td>
+            <td>Language</td>
+            <td>Link</td>
+            <td>Pages</td>
+            <td>Title</td>
+            <td>Year</td>
+        </tr>
+            
+        <tr ng-repeat="x in books | pageFilter:pages |filter:{'country':search} | orderBy:selected">
+            <td>{{x.author}}</td>
+            <td>{{x.country|uppercase}}</td>
+            <td>{{x.language}}</td>
+            <td><a href= {{x.link}}>view here</a></td>
+            <td>{{x.pages}}</td>
+            <td>{{x.title}}</td>
+            <td>{{x.year |styleYear}}</td>
+        </tr>
+        
+        </table>
+        </div>
+    </body>
+</html>

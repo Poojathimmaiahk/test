@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="styles/style2.css">
+    <script src="script/angular.min.js"></script>
+    <script src="modules/mod.js"></script>
+        <script src="data/batsmen.json"></script>
+    <script src="controller/controller.js"></script>
+    <script src="filters/filter.js"></script>
+    </head>
+    <body ng-app="FirstModule">
+        <div id="Header" ng-controller="playercontroller">
+            <input type="button" value="next" ng-click="nextplayer()">
+            <input type="button" value="previous" ng-click="previousplayer()">
+
+            <table>
+              <tr>
+                  
+                  <td>{{$scope.player.name}}</td>
+             </tr>
+            
+            </table>
+           
+        
+        </div>
+    <div id="playername" ng-controller="playercontroller">
+        <table>
+        
+                                        
+            <tr><th> Name</th>
+                <td>{{x.name}}</td>
+            </tr>
+           <tr> <th>Span</th>
+            <td>{{x.span}}</td>
+            </tr>
+           <tr> <th>Mat</th>
+            <td>{{x.mat}}</td>
+            </tr>
+            <tr> <th>Inn</th>
+            <td>{{x.Inn}}</td>
+            </tr>
+           <tr> 
+                 <th>No</th>
+            <td>{{x.no}}</td>
+            </tr>
+            <tr><th>Runs</th>
+                <td>{{x.runs}}</td>
+            </tr>
+            <tr> <th>HS</th>
+                <td>{{x.HS}}</td>
+            </tr>
+           <tr> <th>Ave</th>
+               <td>{{x.Ave}}</td>
+            </tr>
+           <tr><th>BF</th>
+               <td>{{x.BF}}</td>
+            </tr>
+           <tr><th>SR</th>
+               <td>{{x.SR}}</td>
+            </tr>
+           <tr><th>Hundreds</th>
+               <td>{{x.Hundreds}}</td>
+            </tr>
+           <tr><th>Fifties</th> 
+               <td>{{x.Fifties}}</td>
+            </tr>
+           <tr>
+                <th>Duck</th>
+               <td>{{x.Duck}}</td>
+            </tr>
+       
+        </table>
+        </div>
+    </body>
+</html>

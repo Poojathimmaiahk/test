@@ -1,0 +1,22 @@
+<input type="button" value="get Emp detail" ng-click="getEmployees()">
+
+<div id="emptable">
+<table>
+ <tr>
+    <th>eno</th>
+    <th>name</th>
+    <th>age</th>
+    <th>email</th>
+</tr>
+
+ <tr ng-repeat="x in emp">
+    <td>{{x.eno}}  </td>
+    <td>{{x.name}} </td>
+    <td>{{x.age}}  </td>
+    <td>{{x.email}} </td>
+</tr>
+
+
+
+</table>
+</div>

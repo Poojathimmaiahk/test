@@ -1,0 +1,144 @@
+#demo2{
+    height: 90px;
+    width:400px
+    margin:20px;
+    background-color: bisque;
+    padding:10px;
+}
+    
+#form{
+    height: 150px;
+    width:800px;
+    background-color: aquamarine;
+  
+    
+}
+.error{
+    color: red;
+    
+}
+#external{
+    height: 500px;
+    width:500px;
+    border:2px solid grey;
+    background-color: burlywood;
+    
+    
+}
+#internal{
+    margin:50px;
+height: 300px;
+width:500px;
+border:3px solid red;
+background-color:chartreuse;
+    
+}
+#x{
+    height:350;
+    width:350px;
+    border:2px solid yellow;
+    background-color:forestgreen;
+    position: absolute;
+    top:20px;
+    left: 50px;
+    
+}
+
+#y{
+    height: 350;
+    width:350px;
+    border:2px solid green;
+    background-color:cadetblue;
+    position: absolute;
+    top:20px;
+    right: 50px;
+    
+}
+#repeat{
+    min-height: 150px;
+    margin:20px;
+    width:300px;
+    height:200px;
+    background-color: chartreuse;
+}
+#repeat li{
+    height: 30px;
+    width:200px;
+    background-color: darkgoldenrod;
+    font-family: cursive;
+    color: darkgreen;
+    border:3px solid green;
+    margin:2px;
+    color: white;
+    font-size: 16px;
+}
+#emptable{
+    width:600px;
+    background-color: aqua;
+    border:1px;
+    
+}
+    
+}
+#emptable th{
+    background-color: burlywood;
+    color:white;
+    font-family: inherit;
+    font-size: 14px;
+    width:150px;
+    border:none;
+}
+
+#emptable td{
+    background-color:aliceblue;
+    color:blue;
+    font-family: inherit;
+    font-size: 13px;
+    width:150px;
+    border:none;
+}
+#book table{
+    width:800px;
+    background-color:brown;
+    border:2px;
+    }
+
+    #book th{
+    background-color:grey;
+    color:white;
+    font-family:fantasy;
+    font-size: 16px;
+    width:150px;
+   
+}
+
+#book td{
+    background-color:aliceblue;
+    color:blue;
+    font-family:sans-serif;
+    font-size: 13px;
+    width:150px;
+    
+}
+#header{
+    margin: 30px;
+    background-color: chocolate;
+    border: 3px;
+    width:200px;
+    height: 100px;
+    
+}
+#playername table{
+    width:100px;
+    background-color: darkorange;
+    font-family: serif;
+}
+#playername th{
+    background-color: aquamarine;
+}
+#playername td{
+    background-color: antiquewhite;
+    color:red;
+    font-family: sans-serif;
+    width:10px;
+}
